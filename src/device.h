@@ -5,4 +5,4 @@
 
 bool device_rx(int len);
 
-#endif  __DEVICE_H_
+#endif //  __DEVICE_H_

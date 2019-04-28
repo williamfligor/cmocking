@@ -24,7 +24,7 @@ TEST(rx, simpleTest)
 {
 
     mock().expectOneCall("device_rx")
-          .withParameter("number", 1024)
+          .withParameter("len", 1024)
           .andReturnValue(true);
 
     bool result = rx(512);
